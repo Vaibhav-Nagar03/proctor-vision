@@ -61,7 +61,7 @@ Installation
 
 Clone the repository
 
-git clone https://github.com/yourusername/proctor-vision.git
+git clone https://github.com/Shashank-2005468/proctor-vision.git
 cd proctor-vision
 
 Create a virtual environment

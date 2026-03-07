@@ -57,35 +57,43 @@ Records a violation
 Captures a screenshot
 After three violations, the exam is automatically terminated.
 
-Installation
+
+## Installation & Setup
 
 Clone the repository
 
+```bash
 git clone https://github.com/Shashank-2005468/proctor-vision.git
 cd proctor-vision
+```
 
 Create a virtual environment
 
+```bash
 python -m venv venv
+```
 
 Activate the environment
 
-Windows
-
+### Windows
+```bash
 venv\Scripts\activate
+```
 
-Linux / macOS
-
+### Linux / macOS
+```bash
 source venv/bin/activate
+```
 
 Install dependencies
 
+```bash
 pip install flask opencv-python mediapipe numpy pyttsx3
+```
 
 Run the application
 
+```bash
 python app.py
+```
 
-Open in browser
-
-http://127.0.0.1:5000

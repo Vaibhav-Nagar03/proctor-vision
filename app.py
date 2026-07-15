@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 import cv2
-import mediapipe as mp
+from mediapipe.python import solutions
 import time
 import threading
 import pyttsx3
@@ -31,7 +31,8 @@ class ProctoringState:
 state = ProctoringState()
 
 # ---------------- MEDIAPIPE SETUP ----------------
-mp_face_mesh = mp.solutions.face_mesh
+mp_face_mesh = solutions.face_mesh
+
 face_mesh = mp_face_mesh.FaceMesh(
     static_image_mode=False,
     max_num_faces=1,

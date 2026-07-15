@@ -203,4 +203,4 @@ GitHub:
 https://github.com/Vaibhav-Nagar03
 
 Computer Engineering Student
-AI • MERN Stack • Computer Vision
+• AI • MERN Stack • Computer Vision
